@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		96C5ED061AB28F5300155DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C5ED051AB28F5300155DBF /* AppDelegate.swift */; };
-		96C5ED081AB28F5300155DBF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 96C5ED071AB28F5300155DBF /* GameScene.sks */; };
 		96C5ED0A1AB28F5300155DBF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C5ED091AB28F5300155DBF /* GameScene.swift */; };
 		96C5ED0C1AB28F5300155DBF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C5ED0B1AB28F5300155DBF /* GameViewController.swift */; };
 		96C5ED0F1AB28F5300155DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C5ED0D1AB28F5300155DBF /* Main.storyboard */; };
 		96C5ED111AB28F5300155DBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C5ED101AB28F5300155DBF /* Images.xcassets */; };
 		96C5ED141AB28F5300155DBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C5ED121AB28F5300155DBF /* LaunchScreen.xib */; };
 		96C5ED201AB28F5300155DBF /* MonkeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C5ED1F1AB28F5300155DBF /* MonkeyTests.swift */; };
+		96C5ED2E1AB29CA000155DBF /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 96C5ED2B1AB29CA000155DBF /* background-music-aac.caf */; };
+		96C5ED2F1AB29CA000155DBF /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 96C5ED2C1AB29CA000155DBF /* pew-pew-lei.caf */; };
+		96C5ED301AB29CA000155DBF /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 96C5ED2D1AB29CA000155DBF /* sprites.atlas */; };
+		96C5ED321AB2A32900155DBF /* environment.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C5ED311AB2A32900155DBF /* environment.png */; };
+		96C5ED351AB2A4A000155DBF /* monkeyThrow_Animation_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C5ED341AB2A4A000155DBF /* monkeyThrow_Animation_3.png */; };
+		96C5ED371AB2A4A900155DBF /* monkeyThrow_Animation_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C5ED361AB2A4A900155DBF /* monkeyThrow_Animation_2.png */; };
+		96C5ED391AB2A4AF00155DBF /* monkeyThrow_Animation_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C5ED381AB2A4AF00155DBF /* monkeyThrow_Animation_1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +37,6 @@
 		96C5ED001AB28F5300155DBF /* Monkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C5ED041AB28F5300155DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96C5ED051AB28F5300155DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96C5ED071AB28F5300155DBF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		96C5ED091AB28F5300155DBF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		96C5ED0B1AB28F5300155DBF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		96C5ED0E1AB28F5300155DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +45,13 @@
 		96C5ED191AB28F5300155DBF /* MonkeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonkeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C5ED1E1AB28F5300155DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96C5ED1F1AB28F5300155DBF /* MonkeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyTests.swift; sourceTree = "<group>"; };
+		96C5ED2B1AB29CA000155DBF /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		96C5ED2C1AB29CA000155DBF /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		96C5ED2D1AB29CA000155DBF /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		96C5ED311AB2A32900155DBF /* environment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = environment.png; sourceTree = "<group>"; };
+		96C5ED341AB2A4A000155DBF /* monkeyThrow_Animation_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkeyThrow_Animation_3.png; sourceTree = "<group>"; };
+		96C5ED361AB2A4A900155DBF /* monkeyThrow_Animation_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkeyThrow_Animation_2.png; sourceTree = "<group>"; };
+		96C5ED381AB2A4AF00155DBF /* monkeyThrow_Animation_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkeyThrow_Animation_1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +93,9 @@
 		96C5ED021AB28F5300155DBF /* Monkey */ = {
 			isa = PBXGroup;
 			children = (
+				96C5ED331AB2A33000155DBF /* Assets */,
+				96C5ED291AB29CA000155DBF /* SpriteKitSimpleGameResources */,
 				96C5ED051AB28F5300155DBF /* AppDelegate.swift */,
-				96C5ED071AB28F5300155DBF /* GameScene.sks */,
 				96C5ED091AB28F5300155DBF /* GameScene.swift */,
 				96C5ED0B1AB28F5300155DBF /* GameViewController.swift */,
 				96C5ED0D1AB28F5300155DBF /* Main.storyboard */,
@@ -116,6 +129,35 @@
 				96C5ED1E1AB28F5300155DBF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96C5ED291AB29CA000155DBF /* SpriteKitSimpleGameResources */ = {
+			isa = PBXGroup;
+			children = (
+				96C5ED2A1AB29CA000155DBF /* Sounds */,
+				96C5ED2D1AB29CA000155DBF /* sprites.atlas */,
+			);
+			path = SpriteKitSimpleGameResources;
+			sourceTree = "<group>";
+		};
+		96C5ED2A1AB29CA000155DBF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				96C5ED2B1AB29CA000155DBF /* background-music-aac.caf */,
+				96C5ED2C1AB29CA000155DBF /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		96C5ED331AB2A33000155DBF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				96C5ED341AB2A4A000155DBF /* monkeyThrow_Animation_3.png */,
+				96C5ED361AB2A4A900155DBF /* monkeyThrow_Animation_2.png */,
+				96C5ED381AB2A4AF00155DBF /* monkeyThrow_Animation_1.png */,
+				96C5ED311AB2A32900155DBF /* environment.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,9 +240,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C5ED2E1AB29CA000155DBF /* background-music-aac.caf in Resources */,
 				96C5ED141AB28F5300155DBF /* LaunchScreen.xib in Resources */,
 				96C5ED111AB28F5300155DBF /* Images.xcassets in Resources */,
-				96C5ED081AB28F5300155DBF /* GameScene.sks in Resources */,
+				96C5ED2F1AB29CA000155DBF /* pew-pew-lei.caf in Resources */,
+				96C5ED391AB2A4AF00155DBF /* monkeyThrow_Animation_1.png in Resources */,
+				96C5ED301AB29CA000155DBF /* sprites.atlas in Resources */,
+				96C5ED321AB2A32900155DBF /* environment.png in Resources */,
+				96C5ED351AB2A4A000155DBF /* monkeyThrow_Animation_3.png in Resources */,
+				96C5ED371AB2A4A900155DBF /* monkeyThrow_Animation_2.png in Resources */,
 				96C5ED0F1AB28F5300155DBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
