@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3528D0951AC8A7BE000D3538 /* tourist.png in Resources */ = {isa = PBXBuildFile; fileRef = 3528D0941AC8A7BE000D3538 /* tourist.png */; };
+		3528D0971AC8FD0B000D3538 /* shit.png in Resources */ = {isa = PBXBuildFile; fileRef = 3528D0961AC8FD0B000D3538 /* shit.png */; };
 		96C5ED061AB28F5300155DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C5ED051AB28F5300155DBF /* AppDelegate.swift */; };
 		96C5ED0A1AB28F5300155DBF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C5ED091AB28F5300155DBF /* GameScene.swift */; };
 		96C5ED0C1AB28F5300155DBF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C5ED0B1AB28F5300155DBF /* GameViewController.swift */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3528D0941AC8A7BE000D3538 /* tourist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tourist.png; sourceTree = "<group>"; };
+		3528D0961AC8FD0B000D3538 /* shit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shit.png; sourceTree = "<group>"; };
 		96C5ED001AB28F5300155DBF /* Monkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C5ED041AB28F5300155DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96C5ED051AB28F5300155DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 		96C5ED331AB2A33000155DBF /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				3528D0961AC8FD0B000D3538 /* shit.png */,
+				3528D0941AC8A7BE000D3538 /* tourist.png */,
 				96C5ED341AB2A4A000155DBF /* monkeyThrow_Animation_3.png */,
 				96C5ED361AB2A4A900155DBF /* monkeyThrow_Animation_2.png */,
 				96C5ED381AB2A4AF00155DBF /* monkeyThrow_Animation_1.png */,
@@ -248,6 +254,8 @@
 				96C5ED301AB29CA000155DBF /* sprites.atlas in Resources */,
 				96C5ED321AB2A32900155DBF /* environment.png in Resources */,
 				96C5ED351AB2A4A000155DBF /* monkeyThrow_Animation_3.png in Resources */,
+				3528D0951AC8A7BE000D3538 /* tourist.png in Resources */,
+				3528D0971AC8FD0B000D3538 /* shit.png in Resources */,
 				96C5ED371AB2A4A900155DBF /* monkeyThrow_Animation_2.png in Resources */,
 				96C5ED0F1AB28F5300155DBF /* Main.storyboard in Resources */,
 			);
@@ -461,6 +469,7 @@
 				96C5ED251AB28F5300155DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96C5ED261AB28F5300155DBF /* Build configuration list for PBXNativeTarget "MonkeyTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +478,7 @@
 				96C5ED281AB28F5300155DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
